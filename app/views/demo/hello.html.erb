@@ -1,0 +1,14 @@
+<h1>Demo#hello</h1>
+<p>Hello World</p>
+
+<% @array.each do |n| %>
+<%= "Value is " %><%= n %>
+<br>
+<% end %>
+<br>
+ID: <%= params[:id] %><br>
+ID: <%= @id %><br>
+Page: <%= @page + 1 %><br>
+<hr>
+<%= params.inspect %><br>
+
